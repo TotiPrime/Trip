@@ -1,0 +1,13 @@
+{
+  "name": "trip-cochabamba",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/build.js && node scripts/check-reservations.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
